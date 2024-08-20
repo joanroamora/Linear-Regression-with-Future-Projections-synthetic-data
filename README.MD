@@ -53,7 +53,7 @@ The application can handle multiple CSV files in the data directory, allowing fl
 
 
 
-🇨🇴 ##Proyecto de Regresión Lineal con Predicciones Futuras
+#🇨🇴 Proyecto de Regresión Lineal con Predicciones Futuras
 
 Este proyecto implementa un modelo de regresión lineal para analizar un conjunto de datos sintéticos, predecir valores futuros y graficar los resultados. El proyecto está compuesto por dos scripts principales: app.py y synth_data.py.
 
