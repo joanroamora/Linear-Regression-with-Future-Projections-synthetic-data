@@ -50,7 +50,11 @@ Copiar código
 The data/ directory is automatically created if it does not exist, and it is where the generated datasets are stored.
 The generateData function allows generating a new dataset with the number of rows specified by the user.
 The application can handle multiple CSV files in the data directory, allowing flexibility in dataset selection for analysis.
-:colombia: Proyecto de Regresión Lineal con Predicciones Futuras
+
+
+
+🇨🇴 ##Proyecto de Regresión Lineal con Predicciones Futuras
+
 Este proyecto implementa un modelo de regresión lineal para analizar un conjunto de datos sintéticos, predecir valores futuros y graficar los resultados. El proyecto está compuesto por dos scripts principales: app.py y synth_data.py.
 
 **Archivos**
@@ -59,16 +63,24 @@ Este script es el núcleo de la aplicación y realiza las siguientes funciones:
 
 **Generación de Datos Sintéticos:**
 Permite al usuario generar un nuevo conjunto de datos con un número especificado de filas.
+
 **Selección de Dataset:** Muestra los archivos CSV disponibles en la carpeta data y permite al usuario seleccionar uno para su análisis.
+
 **Entrenamiento del Modelo:** Utiliza regresión lineal para entrenar un modelo con los datos seleccionados.
 Evaluación del Modelo: Calcula y muestra el error cuadrático medio (MSE) para evaluar el rendimiento del modelo.
+
 **Predicciones Futuras:** Genera predicciones para 50 futuros puntos de datos basados en el modelo entrenado.
 **Visualización:** Grafica los datos originales, la línea de regresión y las predicciones futuras, guardando la gráfica como linear_regression_projection.png.
+
+
 ###2. synth_data.py
 Este script se encarga de generar y exportar un dataset sintético. Funciona de la siguiente manera:
 
-**Generación de Datos:** Crea datos sintéticos basados en una simple relación lineal con ruido.
-Exportación a CSV: Guarda el dataset generado en un archivo CSV dentro de la carpeta data, con un nombre único que incluye la fecha y hora actuales.
+**Generación de Datos:** 
+
+Crea datos sintéticos basados en una simple relación lineal con ruido.
+
+**Exportación a CSV:** Guarda el dataset generado en un archivo CSV dentro de la carpeta data, con un nombre único que incluye la fecha y hora actuales.
 Cómo Ejecutar
 Instalación de Dependencias:
 
