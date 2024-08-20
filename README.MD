@@ -34,10 +34,10 @@ Copiar código
 python app.py
 Follow the on-screen instructions to generate a new dataset, select an existing one, train the model, and visualize the predictions.
 
-Output
+###**Output**
 The script will generate a PNG file with the linear regression plot and future projections in the project's main directory, named linear_regression_projection.png.
 
-Directory Structure
+###**Directory Structure**
 plaintext
 Copiar código
 ├── app.py
@@ -46,27 +46,28 @@ Copiar código
 │   └── [generated datasets are stored here]
 ├── linear_regression_projection.png
 └── README.md
-Notes
+**Notes**
 The data/ directory is automatically created if it does not exist, and it is where the generated datasets are stored.
 The generateData function allows generating a new dataset with the number of rows specified by the user.
 The application can handle multiple CSV files in the data directory, allowing flexibility in dataset selection for analysis.
 :colombia: Proyecto de Regresión Lineal con Predicciones Futuras
 Este proyecto implementa un modelo de regresión lineal para analizar un conjunto de datos sintéticos, predecir valores futuros y graficar los resultados. El proyecto está compuesto por dos scripts principales: app.py y synth_data.py.
 
-Archivos
+**Archivos**
 1. app.py
 Este script es el núcleo de la aplicación y realiza las siguientes funciones:
 
-Generación de Datos Sintéticos: Permite al usuario generar un nuevo conjunto de datos con un número especificado de filas.
-Selección de Dataset: Muestra los archivos CSV disponibles en la carpeta data y permite al usuario seleccionar uno para su análisis.
-Entrenamiento del Modelo: Utiliza regresión lineal para entrenar un modelo con los datos seleccionados.
+**Generación de Datos Sintéticos:**
+Permite al usuario generar un nuevo conjunto de datos con un número especificado de filas.
+**Selección de Dataset:** Muestra los archivos CSV disponibles en la carpeta data y permite al usuario seleccionar uno para su análisis.
+**Entrenamiento del Modelo:** Utiliza regresión lineal para entrenar un modelo con los datos seleccionados.
 Evaluación del Modelo: Calcula y muestra el error cuadrático medio (MSE) para evaluar el rendimiento del modelo.
-Predicciones Futuras: Genera predicciones para 50 futuros puntos de datos basados en el modelo entrenado.
-Visualización: Grafica los datos originales, la línea de regresión y las predicciones futuras, guardando la gráfica como linear_regression_projection.png.
-2. synth_data.py
+**Predicciones Futuras:** Genera predicciones para 50 futuros puntos de datos basados en el modelo entrenado.
+**Visualización:** Grafica los datos originales, la línea de regresión y las predicciones futuras, guardando la gráfica como linear_regression_projection.png.
+###2. synth_data.py
 Este script se encarga de generar y exportar un dataset sintético. Funciona de la siguiente manera:
 
-Generación de Datos: Crea datos sintéticos basados en una simple relación lineal con ruido.
+**Generación de Datos:** Crea datos sintéticos basados en una simple relación lineal con ruido.
 Exportación a CSV: Guarda el dataset generado en un archivo CSV dentro de la carpeta data, con un nombre único que incluye la fecha y hora actuales.
 Cómo Ejecutar
 Instalación de Dependencias:
@@ -78,17 +79,17 @@ Copiar código
 pip install numpy pandas matplotlib scikit-learn
 Ejecutar el Script:
 
-Para ejecutar la aplicación principal:
+###Para ejecutar la aplicación principal:
 
 bash
 Copiar código
 python app.py
 Sigue las instrucciones en pantalla para generar un nuevo dataset, seleccionar uno existente, entrenar el modelo y visualizar las predicciones.
 
-Resultados
+###Resultados
 El script generará un archivo PNG con la gráfica de regresión lineal y las proyecciones futuras en el directorio principal del proyecto, con el nombre linear_regression_projection.png.
 
-Estructura de Directorios
+###Estructura de Directorios
 plaintext
 Copiar código
 ├── app.py
@@ -97,7 +98,7 @@ Copiar código
 │   └── [datasets generados se almacenan aquí]
 ├── linear_regression_projection.png
 └── README.md
-Notas
+**Notas**
 El directorio data/ se crea automáticamente si no existe, y es donde se almacenan los datasets generados.
 La función generateData permite generar un nuevo conjunto de datos con la cantidad de filas que el usuario especifique.
 La aplicación puede manejar múltiples archivos CSV en el directorio data, permitiendo flexibilidad en la selección de datasets para el análisis.
